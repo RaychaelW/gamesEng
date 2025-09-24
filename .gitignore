@@ -37,11 +37,12 @@
 
 ### VisualStudioCode ###
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
+
+# Ignore tasks and launch configs
+.vscode/tasks.json
+.vscode/launch.json
 
 # Local History for Visual Studio Code
 .history/
